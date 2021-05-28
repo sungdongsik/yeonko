@@ -1,26 +1,18 @@
-//연습(+, -, *, /)
-const lator = {
-    plus: function(a , b){
-      return a + b ;
-    },
-    minus: function(a, b){
-      return a - b;
-    },
-    gob: function(a, b){
-      return a * b;
-    },
-    na: function(a, b){
-     return a / b;
-    }
-   }
-   
-   const plus = lator.plus(3, 4);
-   const minus = lator.minus(2, 3);
-   const gob = lator.gob(2, 2);
-   const na = lator.na(3, 2);
-   console.log(plus);
-   console.log(minus);
-   console.log(gob);
-   console.log(na);
-   
-   //연습(+, -, *, /)
+const javaTime = document.querySelector(".js-time"),
+    clockTime = document.querySelector("h1");
+
+function getTime(){
+    const date = new Date();
+    const minutes  = date.getMinutes();
+    const hours = date.getHours();
+    const seconds = date.getSeconds();
+
+    clockTime.innerText = `${hours < 10 ? `0${hours}` : hours} : ${minutes < 10 ? `0${minutes}`: minutes} : ${seconds < 10 ? `0${seconds}`: seconds}`;
+}
+
+function init(){
+ getTime();
+ setInterval(getTime, 1000);
+}
+
+init();
