@@ -1,0 +1,71 @@
+@charset "UTF-8"; 
+*{ margin: 0; padding: 0; font-size: 1rem; text-decoration: none; list-style: none;}
+li {list-style: none;}
+a {text-decoration: none; color: inherit;}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  #top{width:100%; height:50px; line-height:50px; color:#fff; text-align: center; background-color: #082f7c;}
+  #top_wrap{width:1400px; margin:0 auto;}
+  #top_1{float:left; width:700px; height:50px; margin-left: 250px;}
+  #top_2{float:right; width:400px; height:50px;}
+  #top_3{float: right; width:450px;}
+  #top ul li{width:250px;color:#fff; float: left; position: relative; z-index: 20;  cursor: pointer; }
+  #top ul li a{display:block; width:200px; color:#fff; }
+  #logo{float:left; width:150px; height:100px;}
+  #log{width:200px; height:200px; margin-left:25px; background-color: #082f7c; position: relative; z-index:12; display: none;}
+  #log2{position: relative; z-index:30;}
+/*로그인*/
+
+/*메뉴*/
+#header {width:1400px; height:100px;border-bottom:1px solid  #ddd; text-align: center; margin: 0 auto;}
+#header .logo {float: left; width:250px; height:100px; line-height: 100px;}
+#header .nav {float: right; width:800px; margin-top: 28px;}
+#header .nav li {position: relative; float: left; width: 25%; text-align: center; z-index:10;}
+#header .nav li a {padding: 10px; display: block; font-size: 20px;  }
+#header .nav li a:hover {background:#fff; color:#082f7c;}
+#header .nav li ul.submenu {display: none; position: absolute; left: 0; top: 44px; background: #082f7c; color:#fff;}
+#header .nav li ul.submenu li {width: 100%; border-right: 0;}
+
+/*슬라이드*/
+#index_03{ width: 1400px; height: 500px; margin: 0 auto; background-color: black;} 
+#slide3{ height: 500px;} 
+#slide3>ul>li{ position: absolute; font-size: 0; }
+
+/*공지사항*/
+#contents {text-align: center;}
+#contents > div {float: left; width: 33.333333%; }
+#contents > div.cont1 {height: 247px;}
+#contents > div.cont2 { height: 247px; line-height: 247px;}
+#contents > div.cont3 { height: 247px; line-height: 247px;}
+
+.tab-menu {padding: 10px;}
+.tab-menu .tab-btn ul {overflow: hidden;}
+.tab-menu .tab-btn li {float: left; width: 160px; background: #082f7c; text-align: center;}
+.tab-menu .tab-btn li.active {text-decoration: underline;}
+.tab-menu .tab-btn li a {padding: 10px; display: block; color: #fff;}
+.tab-menu .tab-cont {padding: 3px; text-align: left;}
+.tab-cont #tab_text p{cursor: pointer; font-size: 13px; padding:3px;}
+.tab-cont #tab_text p:hover{text-decoration: underline; color:#999;}
+/*공지사항*/
+
+/*로그인*/
+.cont3 .login{width:100%; margin-top:10px; margin-left:10px;}
+.cont3 .login li{width: 160px; height:41px; background: #082f7c; text-align: center; line-height:22px; color:#fff;}
+.cont3 .login li a {padding: 10px; display: block; }
+
+.cont3 #login2{width:467px; height:196px; text-align: left; margin-left:50px;}
+.cont3 #login2 #lg{width:467px; height:50px; line-height:60px;}
+.cont3 #login2 #id{width:250px; height:30px;}
+.cont3 #login2 #pass{width:250px; height:30px;}
+.cont3 #login2 #lg2{width:100px; height:30px; background-color: #082f7c; border: none; color: #fff; cursor: pointer;}
+.cont3 #login2 #lg2:hover{background:#fff; border: 1px solid #082f7c; color: #082f7c;}
+#login2 p{width:180px; height:40px; font-size:16px; line-height:40px; text-align: center; margin:0 auto; margin-top:50px;}
+/* footer */
+#footer {margin-top:10px; width:1400px; height: 100px; line-height: 100px; text-align: center; border: 1px solid #ddd;}
+#footer .foot1 {float: left; width: 250px; height:100px;}
+#footer .foot2 {float: left; width: 900px; font-size: 11px;}
+#footer .foot3 {float: left; width: 250px; height:100px;}
