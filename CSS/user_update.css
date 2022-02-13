@@ -1,0 +1,52 @@
+@charset "UTF-8"; 
+*{ margin: 0; padding: 0; font-size: 1rem; text-decoration: none; list-style: none;}
+li {list-style: none;}
+a {text-decoration: none; color: inherit;}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+#top{width:100%; height:50px; line-height:50px; color:#fff; text-align: center; background-color: #082f7c;}
+#top_wrap{width:1400px; margin:0 auto;}
+#top_1{float:left; width:700px; height:50px; margin-left: 250px;}
+#top_2{float:right; width:400px; height:50px;}
+#top_3{float: right; width:450px;}
+#top ul li{width:250px;color:#fff; float: left; position: relative; z-index: 20; cursor: pointer;}
+#top ul li a{display:block; width:200px; color:#fff; }
+#logo{float:left; width:150px; height:100px;}
+#log{width:200px; height:200px; margin-left:25px; background-color: #082f7c; position: relative; z-index:12; display: none;}
+#log2{position: relative; z-index:30;}
+/*로그인*/
+
+/*수강신청*/
+#depart{width:1400px; margin-top:50px;}
+#depart ul{width:100%;}
+#depart ul li{width:100%; text-align: left; height:180px; margin-top:50px; border-bottom: 1px solid #ddd;}
+#depart ul li:nth-child(1){border-top:1px solid #ddd;}
+#depart ul li .bb{width:100px; height:35px; background-color: #082f7c; color:#fff; border: none; cursor: pointer;}
+#de_text{text-align: left;}
+#de_text p{font-size:14px;}
+/*메뉴*/
+#header {width:1400px; height:100px;border-bottom:1px solid  #ddd; text-align: center; margin: 0 auto;}
+#header .logo {float: left; width:250px; height:100px; line-height: 100px;}
+#header .nav {float: right; width:800px; margin-top: 28px;}
+#header .nav li {position: relative; float: left; width: 25%; text-align: center; z-index:10;}
+#header .nav li a {padding: 10px; display: block; font-size: 20px;  }
+#header .nav li a:hover {background:#fff; color:#082f7c;}
+#header .nav li ul.submenu {display: none; position: absolute; left: 0; top: 44px; background: #082f7c; color:#fff;}
+#header .nav li ul.submenu li {width: 100%; border-right: 0;}
+
+#up{width:1400px; height:350px; margin:0 auto; text-align: center; margin-top:250px;}
+#up a{width:200px; height:35px; line-height:35px; background-color: #082f7c; color:#fff; display: block; margin:0 auto;}
+/*수강신청*/
+#sus{width:1400px; margin-top:100px; }
+#sus .text_su{width:200px; height:500px; line-height:30px; font-size:14px; display: block; margin:0 auto;}
+#sus .text_su p{font-size: 14px;}
+
+/* footer */
+#footer {margin-top:10px; width:1400px; height: 100px; line-height: 100px; text-align: center; border: 1px solid #ddd; position: relative; bottom: -200px;}
+#footer .foot1 {float: left; width: 250px; height:100px;}
+#footer .foot2 {float: left; width: 900px; font-size: 11px;}
+#footer .foot3 {float: left; width: 250px; height:100px;}
